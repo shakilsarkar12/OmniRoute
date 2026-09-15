@@ -70,7 +70,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 # Local gitleaks artifacts (do not commit)
 gitleaks-local.json
 !.env.example
@@ -296,3 +295,7 @@ docker-compose.yml.bak
 
 # check:install-upgrade work trees (~12 GB, disposable)
 /.install-upgrade/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
